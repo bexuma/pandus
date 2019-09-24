@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.0'
 
+gem 'rack-cors', require: 'rack/cors'
+gem 'graphql', '1.7.4'
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
