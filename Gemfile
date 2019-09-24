@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.0'
 
+gem 'graphql', '1.7.4'
 gem 'rack-cors', require: 'rack/cors'
 gem 'geocoder', '~> 1.3', '>= 1.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -62,3 +63,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'graphiql-rails', '1.4.4', group: :development
