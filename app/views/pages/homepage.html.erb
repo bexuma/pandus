@@ -1,0 +1,26 @@
+<div class="container">
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">№</th>
+              <th scope="col">Дата</th>
+              <th scope="col">Адрес</th>
+              <th scope="col">Заявление</th>
+            </tr>
+          </thead>
+         
+          <tbody>
+            <% @applications.each do |application| %>
+              <tr>
+                <th scope="row"><%= application.id %></td>
+                <td><%= time_ago_in_words(application.created_at) %></td>
+                <td><%= application.address %></td>
+                <td><%= application.title %></td>
+              </tr>
+            <% end %>
+          </tbody>
+        </table>
+
+</div>
+
