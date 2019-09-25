@@ -9,7 +9,7 @@ class Mutations::ApplicationCreate < GraphQL::Function
     application = Application.new(
       title: args[:title],
       description: args[:description],
-      address: args[:address]
+      address: args[:address] + ", Караганда"
     )
 
     if application.valid?
