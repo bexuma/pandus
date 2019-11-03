@@ -1,4 +1,4 @@
-# READ
+# Pandus
 
 To run you must first download the source code and run `rails db:create && rails db:migrate`.
 
