@@ -1,24 +1,5 @@
 # READ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run you must first download the source code and run `rails db:create && rails db:migrate`.
 
-Things you may want to cover:
-
--   Ruby version
-
--   System dependencies
-
--   Configuration
-
--   Database creation
-
--   Database initialization
-
--   How to run the test suite
-
--   Services (job queues, cache servers, search engines, etc.)
-
--   Deployment instructions
-
--   ...
+Then set the environment variable `GEOCODING_API_KEY` with your own api key from Google.
