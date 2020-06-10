@@ -5,7 +5,7 @@ ruby '2.5.0'
 
 gem 'graphql', '1.7.4'
 gem 'rack-cors', require: 'rack/cors'
-gem 'geocoder', '~> 1.3', '>= 1.3.7'
+gem 'geocoder', '~> 1.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
 # Use postgresql as the database for Active Record
